@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imageWrapper {
+    /* border: 1px solid red; */
+    background-image: url("./../scumlet.png");
+
+    /* flex: 1; */
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: center;
+    margin: 1em;
+    /* padding: 1em; */
+}
+
+.crossed {
+        background-image:  url("./../cross.png"), url("./../scumlet.png");
+
+}
+
