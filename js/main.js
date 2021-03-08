@@ -1,4 +1,4 @@
-const startDate = "03 06 2021";
+const startDate = "03 03 2021";
 
 window.onload = (e) => {
   let images = document.querySelectorAll(".imageWrapper");
